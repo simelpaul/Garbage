@@ -1,0 +1,45 @@
+.head {
+    color: orangered;
+    text-align: center;
+    text-decoration: double;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: peru;
+    border-radius: 4ch;
+    border-style: solid;
+    background-color: black;
+    background-attachment: fixed;
+}
+body {
+    background-color: gray;
+    background-attachment: fixed;
+}
+.para1 {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:purple ;
+}
+.img1 {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    shape-image-threshold: inherit ;
+    shape-outside:margin-box ;
+}
+.para2 {
+    border: 1px;
+    text-align: center;
+    color: black;
+    background-color: chocolate;
+    background-attachment: fixed;
+    padding-right: 50px;
+}
+.img2 {
+    align-content: center;
+    max-width: 100%;
+    height: auto;
+}
+.cont {
+    text-align: center;
+}
