@@ -1,0 +1,29 @@
+.links{
+    float:right;
+    padding: 20px;
+    gap: 50px;
+}
+
+.order{
+    display:flex;
+    gap: 1%;
+    padding: 1%;
+}
+
+h3{
+    text-align: center;
+}
+
+.litter{
+    height: 63%;
+}
+
+.bagsncan{
+    width:auto;
+    gap: 30px;
+}
+
+.trash-can{
+    width: 100%;
+    padding: 1%;
+}
