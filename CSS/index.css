@@ -1,13 +1,28 @@
-.header{
-    color: rgb(6, 71, 33);
-    display:contents ;
+
+
+h1{
     text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+    font-family:cursive;
+}
+.header{
+    color: rgb(190, 199, 67);
+    display:block ;
+    text-align:left;
+    font-size:15px;
+    font-family:monospace;
 }
 
 .links{
-    float: right;
-    padding: 1px;
-    gap: 0px;
+    display: flex;
+    float:right;
+    padding: 3px;
+    gap: 7px;
+    background-color: rgb(240, 174, 52);
+    border-radius: 4px;
+    width: 150px;
+    font-size: 16px;
 }
 
 .display{
@@ -29,7 +44,7 @@
 }
 
 .collect{
-    background-color: rgb(102, 170, 34);
+    background-color: rgb(123, 209, 36);
     padding: 10px;
     border-radius: 10px;
 }
@@ -41,11 +56,19 @@
 }
 
 .re-cycle{
-    background-color: chartreuse;
+    background-color: rgb(117, 226, 8);
     padding: 10px;
     border-radius: 10px ;
 }
 
 .body{
-    background-color: rgb(40, 105, 75);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/garbage1.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2%;
+}
+
+h2{
+    color:lavenderblush;
 }

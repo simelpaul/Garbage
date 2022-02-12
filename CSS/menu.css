@@ -1,29 +1,37 @@
+.body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(/images/garback.jpeg);
+    height: 800px;
+    color: black;
+    padding: 0px;
+    height: 750px;
+    width: 100%;
+    background-position:center;
+}
+
 .links{
-    float:right;
-    padding: 20px;
-    gap: 50px;
+    display: flex;
+    float: right;
+    padding: 3px;
+    gap: 15px;
+    background-color: turquoise;
+    border-radius: 10px;
 }
 
 .order{
-    display:flex;
-    gap: 1%;
-    padding: 1%;
+    display: flex;
+    width: 50px;
+    height: 400px;
+    gap:20px;
+    padding: 4px;
 }
 
-h3{
-    text-align: center;
+.both{
+    height: 69%;
+  
 }
 
-.litter{
-    height: 63%;
+.wastebag{
+    height: 70%;
 }
 
-.bagsncan{
-    width:auto;
-    gap: 30px;
-}
 
-.trash-can{
-    width: 100%;
-    padding: 1%;
-}
